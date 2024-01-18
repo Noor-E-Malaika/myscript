@@ -1,0 +1,44 @@
+body {
+    background-color: #8bf0a8;
+    /* Light Parrot Green for the body background */
+    height: 100vh;
+    font-family: 'Bodoni Moda', sans-serif;
+    color: #333;
+    /* Dark Gray text color */
+}
+
+.todo-app {
+    max-width: 600px;
+    background-color: #f78f69;
+    /* Apricot for the main container */
+    padding: 20px 30px 50px;
+    margin: 120px auto 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 20px;
+    border: 4px solid #e599c5;
+    /* Mauve for the input field border */
+    border-radius: 15px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.btn {
+    background-color: #e599c5;
+    /* Mauve for the button */
+    border: none;
+    color: #fff;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: #c95543;
+    /* Dark Salmon Pink on hover */
+}
